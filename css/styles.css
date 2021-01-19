@@ -882,6 +882,62 @@ main {
 		display: block;
 	}
 
+	.header-logo {
+		width: 158px;
+	}
+
+	.header-title {
+		font-size: 40px;
+		line-height: 1.375;
+		margin-top: 100px;
+		padding-bottom: 122px;
+	}
+
+	.cards-trand {
+		flex-wrap: wrap;
+	}
+
+	.card-trand {
+		width: 50%;
+	}
+
+	.card-trand:nth-child(n + 2) {
+		margin-left: 0;
+	}
+
+
+	.card-trand:nth-child(2n + 2) {
+		width: calc(50% - 4px);
+		margin-left: 4px;
+	}
+
+	.card-trand:nth-child(n + 3) {
+		margin-top: 3px;
+	}
+
+	.trand-headline{
+		font-size: 18px;
+		line-height: 1.611;
+	}
+
+	.trend-title {
+		font-size: 17px;
+		line-height: 1.294;
+	}
+
+	.content-main {
+		max-width: 390px;
+		display: block;
+	}
+
+	.main-content {
+		padding-left: 0;
+		margin-top: 0;
+	}
+
+
+
+
 
 }
 
@@ -893,6 +949,18 @@ main {
 	.header {
 		background-image: url(../images/banner-mobile.jpg);
 	}
+
+
+
+
+	.cards-trand {
+		display: block;
+	}
+
+	.card-trand {
+		width: 100%;
+	}
+
 
 
 
