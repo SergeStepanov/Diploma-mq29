@@ -867,7 +867,7 @@ main {
 	background-color: #323232;
 }
 
-@media (orientation:landscape) and (min-width: 641px) and (max-width: 1169px) {
+@media (orientation: landscape) and (min-width: 641px) and (max-width: 1169px) {
 	
 	.cards-trand {
 		flex-wrap: nowrap;
