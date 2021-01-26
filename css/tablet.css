@@ -700,14 +700,14 @@ main {
 }
 
 .hidden-close {
-	width: 20px;
-	height: 20px;
+	width: 25px;
+	height: 25px;
 	border: none;	
 	position: absolute;
-	top: -26px;
+	top: -35px;
 	right: 0;	
 	background-image: url(../svg/form-x.svg);
-	background-size: 20px;
+	background-size: 25px;
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-color: transparent;
@@ -742,9 +742,9 @@ main {
 .hidden-title {
 	color: #0f0d0e;
 	font-weight: 700;
-	line-height: 1.45;
+	line-height: 1.71;
 	margin-bottom: 23px;
-	font-size: 20px;
+	font-size: 18px;
 	text-transform: uppercase;
 }
 
@@ -777,7 +777,7 @@ main {
 	background-image: url(../svg/form-arrows.svg);
 	background-repeat: no-repeat;
 	background-position: right 5px center;
-	background-size: 8px 15px;
+	background-size: 8px 18px;
 }
 
 .select:focus {
@@ -793,13 +793,13 @@ main {
 	content: "";
 	display: inline-block;
 	vertical-align: middle;
-	width: 15px;
-	height: 15px;
+	width: 25px;
+	height: 25px;
 	background-image: url(../svg/form-empty-circle.svg);
 	background-repeat: no-repeat;
 	background-position:center center;
-	background-size: 15px;
-	margin-right: 5px;
+	background-size: 25px;
+	margin-right: 6px;
 
 }
 
@@ -856,7 +856,7 @@ main {
 	width: 330px;
 	height: 47px;
 	text-transform: uppercase;
-	background-color: #d3c59d;
+	background-color: #b59f5b;
 	border: none;
 	color: #ffffff;
 	font-size: 14px;
